@@ -1,0 +1,9 @@
+/* src/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* your global tweaks here */
+html,body{
+  @apply min-h-screen bg-gray-50 text-gray-900;
+}
